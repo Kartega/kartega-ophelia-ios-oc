@@ -8,8 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		FAB21FD821C8DD94004137A1 /* Ophelia.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB21FD621C8DD94004137A1 /* Ophelia.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAB21FE921C8E199004137A1 /* NSArray+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB21FE721C8E199004137A1 /* NSArray+Extensions.h */; };
+		FAB21FE921C8E199004137A1 /* NSArray+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB21FE721C8E199004137A1 /* NSArray+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAB21FEA21C8E199004137A1 /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB21FE821C8E199004137A1 /* NSArray+Extensions.m */; };
+		FAB2203821C91733004137A1 /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2203621C91733004137A1 /* NSDate+Extensions.m */; };
+		FAB2203921C91734004137A1 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2203721C91733004137A1 /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2203C21C917A9004137A1 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2203A21C917A9004137A1 /* NSString+Extensions.m */; };
+		FAB2203D21C917A9004137A1 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2203B21C917A9004137A1 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2204821C917EA004137A1 /* UIImage+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2203E21C917E9004137A1 /* UIImage+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2204921C917EA004137A1 /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2203F21C917E9004137A1 /* UIView+Extensions.m */; };
+		FAB2204A21C917EA004137A1 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2204021C917E9004137A1 /* UIButton+Extensions.m */; };
+		FAB2204B21C917EA004137A1 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2204121C917EA004137A1 /* UIImage+Extensions.m */; };
+		FAB2204C21C917EA004137A1 /* UIButton+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2204221C917EA004137A1 /* UIButton+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2204D21C917EA004137A1 /* UILabel+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2204321C917EA004137A1 /* UILabel+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2204E21C917EA004137A1 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2204421C917EA004137A1 /* UIColor+Extensions.m */; };
+		FAB2204F21C917EA004137A1 /* UIView+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2204521C917EA004137A1 /* UIView+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2205021C917EA004137A1 /* UIColor+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2204621C917EA004137A1 /* UIColor+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAB2205121C917EA004137A1 /* UILabel+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2204721C917EA004137A1 /* UILabel+Extensions.m */; };
+		FAB2208021CA3C6C004137A1 /* mask.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207221CA3C6C004137A1 /* mask.h */; };
+		FAB2208121CA3C6C004137A1 /* qrinput.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207321CA3C6C004137A1 /* qrinput.h */; };
+		FAB2208221CA3C6C004137A1 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207421CA3C6C004137A1 /* bitstream.c */; };
+		FAB2208321CA3C6C004137A1 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207521CA3C6C004137A1 /* qrencode.c */; };
+		FAB2208421CA3C6C004137A1 /* qrspec.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207621CA3C6C004137A1 /* qrspec.h */; };
+		FAB2208521CA3C6C004137A1 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207721CA3C6C004137A1 /* split.c */; };
+		FAB2208621CA3C6C004137A1 /* rscode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207821CA3C6C004137A1 /* rscode.h */; };
+		FAB2208721CA3C6C004137A1 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207921CA3C6C004137A1 /* qrinput.c */; };
+		FAB2208821CA3C6C004137A1 /* bitstream.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207A21CA3C6C004137A1 /* bitstream.h */; };
+		FAB2208921CA3C6C004137A1 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207B21CA3C6C004137A1 /* mask.c */; };
+		FAB2208A21CA3C6C004137A1 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207C21CA3C6C004137A1 /* qrspec.c */; };
+		FAB2208B21CA3C6C004137A1 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207D21CA3C6C004137A1 /* qrencode.h */; };
+		FAB2208C21CA3C6C004137A1 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207E21CA3C6C004137A1 /* split.h */; };
+		FAB2208D21CA3C6C004137A1 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207F21CA3C6C004137A1 /* rscode.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +46,34 @@
 		FAB21FD721C8DD94004137A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB21FE721C8E199004137A1 /* NSArray+Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extensions.h"; sourceTree = "<group>"; };
 		FAB21FE821C8E199004137A1 /* NSArray+Extensions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extensions.m"; sourceTree = "<group>"; };
+		FAB2203621C91733004137A1 /* NSDate+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extensions.m"; sourceTree = "<group>"; };
+		FAB2203721C91733004137A1 /* NSDate+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extensions.h"; sourceTree = "<group>"; };
+		FAB2203A21C917A9004137A1 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		FAB2203B21C917A9004137A1 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		FAB2203E21C917E9004137A1 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		FAB2203F21C917E9004137A1 /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		FAB2204021C917E9004137A1 /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extensions.m"; sourceTree = "<group>"; };
+		FAB2204121C917EA004137A1 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		FAB2204221C917EA004137A1 /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extensions.h"; sourceTree = "<group>"; };
+		FAB2204321C917EA004137A1 /* UILabel+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extensions.h"; sourceTree = "<group>"; };
+		FAB2204421C917EA004137A1 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		FAB2204521C917EA004137A1 /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		FAB2204621C917EA004137A1 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		FAB2204721C917EA004137A1 /* UILabel+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extensions.m"; sourceTree = "<group>"; };
+		FAB2207221CA3C6C004137A1 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		FAB2207321CA3C6C004137A1 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		FAB2207421CA3C6C004137A1 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		FAB2207521CA3C6C004137A1 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		FAB2207621CA3C6C004137A1 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		FAB2207721CA3C6C004137A1 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		FAB2207821CA3C6C004137A1 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		FAB2207921CA3C6C004137A1 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		FAB2207A21CA3C6C004137A1 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		FAB2207B21CA3C6C004137A1 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		FAB2207C21CA3C6C004137A1 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		FAB2207D21CA3C6C004137A1 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		FAB2207E21CA3C6C004137A1 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		FAB2207F21CA3C6C004137A1 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +109,7 @@
 				FAB21FD621C8DD94004137A1 /* Ophelia.h */,
 				FAB21FDE21C8E0B9004137A1 /* Categories */,
 				FAB21FD721C8DD94004137A1 /* Info.plist */,
+				FAB2207021CA3C6C004137A1 /* Libraries */,
 			);
 			path = Ophelia;
 			sourceTree = "<group>";
@@ -62,8 +119,51 @@
 			children = (
 				FAB21FE721C8E199004137A1 /* NSArray+Extensions.h */,
 				FAB21FE821C8E199004137A1 /* NSArray+Extensions.m */,
+				FAB2203721C91733004137A1 /* NSDate+Extensions.h */,
+				FAB2203621C91733004137A1 /* NSDate+Extensions.m */,
+				FAB2203B21C917A9004137A1 /* NSString+Extensions.h */,
+				FAB2203A21C917A9004137A1 /* NSString+Extensions.m */,
+				FAB2204221C917EA004137A1 /* UIButton+Extensions.h */,
+				FAB2204021C917E9004137A1 /* UIButton+Extensions.m */,
+				FAB2204621C917EA004137A1 /* UIColor+Extensions.h */,
+				FAB2204421C917EA004137A1 /* UIColor+Extensions.m */,
+				FAB2204521C917EA004137A1 /* UIView+Extensions.h */,
+				FAB2203F21C917E9004137A1 /* UIView+Extensions.m */,
+				FAB2203E21C917E9004137A1 /* UIImage+Extensions.h */,
+				FAB2204121C917EA004137A1 /* UIImage+Extensions.m */,
+				FAB2204321C917EA004137A1 /* UILabel+Extensions.h */,
+				FAB2204721C917EA004137A1 /* UILabel+Extensions.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		FAB2207021CA3C6C004137A1 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2207121CA3C6C004137A1 /* libqrencode */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		FAB2207121CA3C6C004137A1 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2207221CA3C6C004137A1 /* mask.h */,
+				FAB2207321CA3C6C004137A1 /* qrinput.h */,
+				FAB2207421CA3C6C004137A1 /* bitstream.c */,
+				FAB2207521CA3C6C004137A1 /* qrencode.c */,
+				FAB2207621CA3C6C004137A1 /* qrspec.h */,
+				FAB2207721CA3C6C004137A1 /* split.c */,
+				FAB2207821CA3C6C004137A1 /* rscode.h */,
+				FAB2207921CA3C6C004137A1 /* qrinput.c */,
+				FAB2207A21CA3C6C004137A1 /* bitstream.h */,
+				FAB2207B21CA3C6C004137A1 /* mask.c */,
+				FAB2207C21CA3C6C004137A1 /* qrspec.c */,
+				FAB2207D21CA3C6C004137A1 /* qrencode.h */,
+				FAB2207E21CA3C6C004137A1 /* split.h */,
+				FAB2207F21CA3C6C004137A1 /* rscode.c */,
+			);
+			path = libqrencode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,8 +173,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB2208821CA3C6C004137A1 /* bitstream.h in Headers */,
+				FAB2208121CA3C6C004137A1 /* qrinput.h in Headers */,
+				FAB2208021CA3C6C004137A1 /* mask.h in Headers */,
+				FAB2203921C91734004137A1 /* NSDate+Extensions.h in Headers */,
 				FAB21FD821C8DD94004137A1 /* Ophelia.h in Headers */,
+				FAB2203D21C917A9004137A1 /* NSString+Extensions.h in Headers */,
+				FAB2204D21C917EA004137A1 /* UILabel+Extensions.h in Headers */,
+				FAB2208B21CA3C6C004137A1 /* qrencode.h in Headers */,
+				FAB2204821C917EA004137A1 /* UIImage+Extensions.h in Headers */,
+				FAB2208C21CA3C6C004137A1 /* split.h in Headers */,
+				FAB2204F21C917EA004137A1 /* UIView+Extensions.h in Headers */,
+				FAB2208421CA3C6C004137A1 /* qrspec.h in Headers */,
+				FAB2204C21C917EA004137A1 /* UIButton+Extensions.h in Headers */,
+				FAB2205021C917EA004137A1 /* UIColor+Extensions.h in Headers */,
 				FAB21FE921C8E199004137A1 /* NSArray+Extensions.h in Headers */,
+				FAB2208621CA3C6C004137A1 /* rscode.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +259,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB2208921CA3C6C004137A1 /* mask.c in Sources */,
+				FAB2205121C917EA004137A1 /* UILabel+Extensions.m in Sources */,
+				FAB2204A21C917EA004137A1 /* UIButton+Extensions.m in Sources */,
+				FAB2208321CA3C6C004137A1 /* qrencode.c in Sources */,
+				FAB2204B21C917EA004137A1 /* UIImage+Extensions.m in Sources */,
+				FAB2204E21C917EA004137A1 /* UIColor+Extensions.m in Sources */,
+				FAB2208721CA3C6C004137A1 /* qrinput.c in Sources */,
+				FAB2203C21C917A9004137A1 /* NSString+Extensions.m in Sources */,
+				FAB2203821C91733004137A1 /* NSDate+Extensions.m in Sources */,
+				FAB2204921C917EA004137A1 /* UIView+Extensions.m in Sources */,
+				FAB2208521CA3C6C004137A1 /* split.c in Sources */,
+				FAB2208A21CA3C6C004137A1 /* qrspec.c in Sources */,
+				FAB2208221CA3C6C004137A1 /* bitstream.c in Sources */,
+				FAB2208D21CA3C6C004137A1 /* rscode.c in Sources */,
 				FAB21FEA21C8E199004137A1 /* NSArray+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
