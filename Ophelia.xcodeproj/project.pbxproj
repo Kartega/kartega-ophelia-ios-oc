@@ -38,6 +38,32 @@
 		FAB2208B21CA3C6C004137A1 /* qrencode.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207D21CA3C6C004137A1 /* qrencode.h */; };
 		FAB2208C21CA3C6C004137A1 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2207E21CA3C6C004137A1 /* split.h */; };
 		FAB2208D21CA3C6C004137A1 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = FAB2207F21CA3C6C004137A1 /* rscode.c */; };
+		FAB2209721CA6CED004137A1 /* AppUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2209521CA6CED004137A1 /* AppUtil.h */; };
+		FAB2209821CA6CED004137A1 /* AppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2209621CA6CED004137A1 /* AppUtil.m */; };
+		FAB2209B21CA6CF9004137A1 /* DeviceUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2209921CA6CF9004137A1 /* DeviceUtil.h */; };
+		FAB2209C21CA6CF9004137A1 /* DeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2209A21CA6CF9004137A1 /* DeviceUtil.m */; };
+		FAB2209F21CA6D07004137A1 /* KeychainUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB2209D21CA6D07004137A1 /* KeychainUtil.h */; };
+		FAB220A021CA6D07004137A1 /* KeychainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB2209E21CA6D07004137A1 /* KeychainUtil.m */; };
+		FAB220A321CA6D14004137A1 /* PrefsUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220A121CA6D14004137A1 /* PrefsUtil.h */; };
+		FAB220A421CA6D14004137A1 /* PrefsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220A221CA6D14004137A1 /* PrefsUtil.m */; };
+		FAB220A721CA6D36004137A1 /* UIKitUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220A521CA6D36004137A1 /* UIKitUtil.h */; };
+		FAB220A821CA6D36004137A1 /* UIKitUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220A621CA6D36004137A1 /* UIKitUtil.m */; };
+		FAB220AB21CA6D42004137A1 /* ValidationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220A921CA6D42004137A1 /* ValidationUtil.h */; };
+		FAB220AC21CA6D42004137A1 /* ValidationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220AA21CA6D42004137A1 /* ValidationUtil.m */; };
+		FAB220AF21CA6D4E004137A1 /* NetworkUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220AD21CA6D4E004137A1 /* NetworkUtil.h */; };
+		FAB220B021CA6D4E004137A1 /* NetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220AE21CA6D4E004137A1 /* NetworkUtil.m */; };
+		FAB220B321CA6D60004137A1 /* ShareUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220B121CA6D60004137A1 /* ShareUtil.h */; };
+		FAB220B421CA6D60004137A1 /* ShareUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220B221CA6D60004137A1 /* ShareUtil.m */; };
+		FAB220BB21CA6DAC004137A1 /* LocationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220B921CA6DAC004137A1 /* LocationUtil.h */; };
+		FAB220BC21CA6DAC004137A1 /* LocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220BA21CA6DAC004137A1 /* LocationUtil.m */; };
+		FAB220C121CA6E01004137A1 /* ValidationObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220BF21CA6E01004137A1 /* ValidationObject.h */; };
+		FAB220C221CA6E01004137A1 /* ValidationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220C021CA6E01004137A1 /* ValidationObject.m */; };
+		FAB220C521CA6E1F004137A1 /* Page.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220C321CA6E1F004137A1 /* Page.h */; };
+		FAB220C621CA6E1F004137A1 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220C421CA6E1F004137A1 /* Page.m */; };
+		FAB220C921CA6E44004137A1 /* UserLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220C721CA6E44004137A1 /* UserLocation.h */; };
+		FAB220CA21CA6E44004137A1 /* UserLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220C821CA6E44004137A1 /* UserLocation.m */; };
+		FAB220CD21CA6E79004137A1 /* NetworkingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = FAB220CB21CA6E79004137A1 /* NetworkingUtil.h */; };
+		FAB220CE21CA6E79004137A1 /* NetworkingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB220CC21CA6E79004137A1 /* NetworkingUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +100,32 @@
 		FAB2207D21CA3C6C004137A1 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
 		FAB2207E21CA3C6C004137A1 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
 		FAB2207F21CA3C6C004137A1 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		FAB2209521CA6CED004137A1 /* AppUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppUtil.h; sourceTree = "<group>"; };
+		FAB2209621CA6CED004137A1 /* AppUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppUtil.m; sourceTree = "<group>"; };
+		FAB2209921CA6CF9004137A1 /* DeviceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceUtil.h; sourceTree = "<group>"; };
+		FAB2209A21CA6CF9004137A1 /* DeviceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceUtil.m; sourceTree = "<group>"; };
+		FAB2209D21CA6D07004137A1 /* KeychainUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeychainUtil.h; sourceTree = "<group>"; };
+		FAB2209E21CA6D07004137A1 /* KeychainUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeychainUtil.m; sourceTree = "<group>"; };
+		FAB220A121CA6D14004137A1 /* PrefsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefsUtil.h; sourceTree = "<group>"; };
+		FAB220A221CA6D14004137A1 /* PrefsUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrefsUtil.m; sourceTree = "<group>"; };
+		FAB220A521CA6D36004137A1 /* UIKitUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitUtil.h; sourceTree = "<group>"; };
+		FAB220A621CA6D36004137A1 /* UIKitUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitUtil.m; sourceTree = "<group>"; };
+		FAB220A921CA6D42004137A1 /* ValidationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationUtil.h; sourceTree = "<group>"; };
+		FAB220AA21CA6D42004137A1 /* ValidationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationUtil.m; sourceTree = "<group>"; };
+		FAB220AD21CA6D4E004137A1 /* NetworkUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkUtil.h; sourceTree = "<group>"; };
+		FAB220AE21CA6D4E004137A1 /* NetworkUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkUtil.m; sourceTree = "<group>"; };
+		FAB220B121CA6D60004137A1 /* ShareUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareUtil.h; sourceTree = "<group>"; };
+		FAB220B221CA6D60004137A1 /* ShareUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareUtil.m; sourceTree = "<group>"; };
+		FAB220B921CA6DAC004137A1 /* LocationUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationUtil.h; sourceTree = "<group>"; };
+		FAB220BA21CA6DAC004137A1 /* LocationUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationUtil.m; sourceTree = "<group>"; };
+		FAB220BF21CA6E01004137A1 /* ValidationObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationObject.h; sourceTree = "<group>"; };
+		FAB220C021CA6E01004137A1 /* ValidationObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationObject.m; sourceTree = "<group>"; };
+		FAB220C321CA6E1F004137A1 /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		FAB220C421CA6E1F004137A1 /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		FAB220C721CA6E44004137A1 /* UserLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserLocation.h; sourceTree = "<group>"; };
+		FAB220C821CA6E44004137A1 /* UserLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserLocation.m; sourceTree = "<group>"; };
+		FAB220CB21CA6E79004137A1 /* NetworkingUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkingUtil.h; sourceTree = "<group>"; };
+		FAB220CC21CA6E79004137A1 /* NetworkingUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkingUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +161,7 @@
 				FAB2208F21CA3CE7004137A1 /* Ophelia */,
 				FAB21FDE21C8E0B9004137A1 /* Category */,
 				FAB2209221CA4111004137A1 /* Utility */,
-				FAB2209321CA4136004137A1 /* View */,
-				FAB2209421CA413E004137A1 /* Controller */,
+				FAB220BE21CA6DD0004137A1 /* MVC */,
 				FAB2209021CA3D08004137A1 /* SupportingFiles */,
 				FAB2207021CA3C6C004137A1 /* Libraries */,
 			);
@@ -188,6 +239,26 @@
 		FAB2209221CA4111004137A1 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				FAB2209521CA6CED004137A1 /* AppUtil.h */,
+				FAB2209621CA6CED004137A1 /* AppUtil.m */,
+				FAB2209921CA6CF9004137A1 /* DeviceUtil.h */,
+				FAB2209A21CA6CF9004137A1 /* DeviceUtil.m */,
+				FAB2209D21CA6D07004137A1 /* KeychainUtil.h */,
+				FAB2209E21CA6D07004137A1 /* KeychainUtil.m */,
+				FAB220A121CA6D14004137A1 /* PrefsUtil.h */,
+				FAB220A221CA6D14004137A1 /* PrefsUtil.m */,
+				FAB220A521CA6D36004137A1 /* UIKitUtil.h */,
+				FAB220A621CA6D36004137A1 /* UIKitUtil.m */,
+				FAB220A921CA6D42004137A1 /* ValidationUtil.h */,
+				FAB220AA21CA6D42004137A1 /* ValidationUtil.m */,
+				FAB220AD21CA6D4E004137A1 /* NetworkUtil.h */,
+				FAB220AE21CA6D4E004137A1 /* NetworkUtil.m */,
+				FAB220B121CA6D60004137A1 /* ShareUtil.h */,
+				FAB220B221CA6D60004137A1 /* ShareUtil.m */,
+				FAB220B921CA6DAC004137A1 /* LocationUtil.h */,
+				FAB220BA21CA6DAC004137A1 /* LocationUtil.m */,
+				FAB220CB21CA6E79004137A1 /* NetworkingUtil.h */,
+				FAB220CC21CA6E79004137A1 /* NetworkingUtil.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -206,6 +277,29 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		FAB220BD21CA6DBF004137A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB220BF21CA6E01004137A1 /* ValidationObject.h */,
+				FAB220C021CA6E01004137A1 /* ValidationObject.m */,
+				FAB220C321CA6E1F004137A1 /* Page.h */,
+				FAB220C421CA6E1F004137A1 /* Page.m */,
+				FAB220C721CA6E44004137A1 /* UserLocation.h */,
+				FAB220C821CA6E44004137A1 /* UserLocation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAB220BE21CA6DD0004137A1 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				FAB220BD21CA6DBF004137A1 /* Model */,
+				FAB2209321CA4136004137A1 /* View */,
+				FAB2209421CA413E004137A1 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -215,17 +309,30 @@
 			files = (
 				FAB2208821CA3C6C004137A1 /* bitstream.h in Headers */,
 				FAB2208121CA3C6C004137A1 /* qrinput.h in Headers */,
+				FAB220C521CA6E1F004137A1 /* Page.h in Headers */,
+				FAB2209B21CA6CF9004137A1 /* DeviceUtil.h in Headers */,
 				FAB2208021CA3C6C004137A1 /* mask.h in Headers */,
+				FAB220A721CA6D36004137A1 /* UIKitUtil.h in Headers */,
+				FAB220BB21CA6DAC004137A1 /* LocationUtil.h in Headers */,
+				FAB2209721CA6CED004137A1 /* AppUtil.h in Headers */,
 				FAB2203921C91734004137A1 /* NSDate+Extensions.h in Headers */,
 				FAB21FD821C8DD94004137A1 /* Ophelia.h in Headers */,
+				FAB220A321CA6D14004137A1 /* PrefsUtil.h in Headers */,
 				FAB2203D21C917A9004137A1 /* NSString+Extensions.h in Headers */,
+				FAB220C921CA6E44004137A1 /* UserLocation.h in Headers */,
+				FAB220B321CA6D60004137A1 /* ShareUtil.h in Headers */,
 				FAB2204D21C917EA004137A1 /* UILabel+Extensions.h in Headers */,
+				FAB220AB21CA6D42004137A1 /* ValidationUtil.h in Headers */,
+				FAB220C121CA6E01004137A1 /* ValidationObject.h in Headers */,
+				FAB220CD21CA6E79004137A1 /* NetworkingUtil.h in Headers */,
 				FAB2208B21CA3C6C004137A1 /* qrencode.h in Headers */,
 				FAB2204821C917EA004137A1 /* UIImage+Extensions.h in Headers */,
 				FAB2208C21CA3C6C004137A1 /* split.h in Headers */,
 				FAB2204F21C917EA004137A1 /* UIView+Extensions.h in Headers */,
 				FAB2208421CA3C6C004137A1 /* qrspec.h in Headers */,
+				FAB220AF21CA6D4E004137A1 /* NetworkUtil.h in Headers */,
 				FAB2204C21C917EA004137A1 /* UIButton+Extensions.h in Headers */,
+				FAB2209F21CA6D07004137A1 /* KeychainUtil.h in Headers */,
 				FAB2205021C917EA004137A1 /* UIColor+Extensions.h in Headers */,
 				FAB21FE921C8E199004137A1 /* NSArray+Extensions.h in Headers */,
 				FAB2208621CA3C6C004137A1 /* rscode.h in Headers */,
@@ -320,16 +427,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB220C621CA6E1F004137A1 /* Page.m in Sources */,
 				FAB2208921CA3C6C004137A1 /* mask.c in Sources */,
+				FAB220CA21CA6E44004137A1 /* UserLocation.m in Sources */,
+				FAB220A021CA6D07004137A1 /* KeychainUtil.m in Sources */,
 				FAB2205121C917EA004137A1 /* UILabel+Extensions.m in Sources */,
+				FAB220B421CA6D60004137A1 /* ShareUtil.m in Sources */,
 				FAB2204A21C917EA004137A1 /* UIButton+Extensions.m in Sources */,
+				FAB2209C21CA6CF9004137A1 /* DeviceUtil.m in Sources */,
+				FAB220A421CA6D14004137A1 /* PrefsUtil.m in Sources */,
+				FAB220BC21CA6DAC004137A1 /* LocationUtil.m in Sources */,
+				FAB220C221CA6E01004137A1 /* ValidationObject.m in Sources */,
+				FAB2209821CA6CED004137A1 /* AppUtil.m in Sources */,
+				FAB220AC21CA6D42004137A1 /* ValidationUtil.m in Sources */,
 				FAB2208321CA3C6C004137A1 /* qrencode.c in Sources */,
 				FAB2204B21C917EA004137A1 /* UIImage+Extensions.m in Sources */,
 				FAB2204E21C917EA004137A1 /* UIColor+Extensions.m in Sources */,
+				FAB220A821CA6D36004137A1 /* UIKitUtil.m in Sources */,
 				FAB2208721CA3C6C004137A1 /* qrinput.c in Sources */,
 				FAB2203C21C917A9004137A1 /* NSString+Extensions.m in Sources */,
 				FAB2203821C91733004137A1 /* NSDate+Extensions.m in Sources */,
 				FAB2204921C917EA004137A1 /* UIView+Extensions.m in Sources */,
+				FAB220CE21CA6E79004137A1 /* NetworkingUtil.m in Sources */,
+				FAB220B021CA6D4E004137A1 /* NetworkUtil.m in Sources */,
 				FAB2208521CA3C6C004137A1 /* split.c in Sources */,
 				FAB2208A21CA3C6C004137A1 /* qrspec.c in Sources */,
 				FAB2208221CA3C6C004137A1 /* bitstream.c in Sources */,
