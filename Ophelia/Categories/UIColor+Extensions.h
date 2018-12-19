@@ -20,7 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
  
  @param hexString   Hexadecimal color code with # charachter ie: #FFFFFF
  @param alpha       Opacity for UIColor
- */
+*/
 +(UIColor *)colorWithHexString:(NSString *)hexString alpha:(float)alpha;
 
 
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param hexValue    Hexadecimal color value ie: 0x000000
  @param alpha       Opacity for UIColor
- */
+*/
 +(UIColor *)colorWithHexValue:(UInt32)hexValue withAlpha:(float)alpha;
 
 @end
