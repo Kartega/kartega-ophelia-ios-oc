@@ -127,7 +127,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- Returns a UIImage snapshot of view with block
+ Apply a mask with the given parameters to view
  
  @param maskFrame    Rectangle to mask on view
  @param radius       Corner radius value
@@ -136,6 +136,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param bottomLeft   Enable bottom left corner radius
  @param bottomRight  Enable bottom right corner radius
 */
+#warning Not completed yet
 -(UIView *)maskViewWithFrame:(CGRect)maskFrame radius:(CGFloat)radius topLeft:(BOOL)topLeft topRight:(BOOL)topRight bottomLeft:(BOOL)bottomLeft bottomRight:(BOOL)bottomRight;
 
 
