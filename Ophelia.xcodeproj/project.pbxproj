@@ -106,15 +106,18 @@
 		FAB21FD521C8DD94004137A1 /* Ophelia */ = {
 			isa = PBXGroup;
 			children = (
-				FAB21FD621C8DD94004137A1 /* Ophelia.h */,
-				FAB21FDE21C8E0B9004137A1 /* Categories */,
-				FAB21FD721C8DD94004137A1 /* Info.plist */,
+				FAB2208F21CA3CE7004137A1 /* Ophelia */,
+				FAB21FDE21C8E0B9004137A1 /* Category */,
+				FAB2209221CA4111004137A1 /* Utility */,
+				FAB2209321CA4136004137A1 /* View */,
+				FAB2209421CA413E004137A1 /* Controller */,
+				FAB2209021CA3D08004137A1 /* SupportingFiles */,
 				FAB2207021CA3C6C004137A1 /* Libraries */,
 			);
 			path = Ophelia;
 			sourceTree = "<group>";
 		};
-		FAB21FDE21C8E0B9004137A1 /* Categories */ = {
+		FAB21FDE21C8E0B9004137A1 /* Category */ = {
 			isa = PBXGroup;
 			children = (
 				FAB21FE721C8E199004137A1 /* NSArray+Extensions.h */,
@@ -134,7 +137,7 @@
 				FAB2204321C917EA004137A1 /* UILabel+Extensions.h */,
 				FAB2204721C917EA004137A1 /* UILabel+Extensions.m */,
 			);
-			path = Categories;
+			path = Category;
 			sourceTree = "<group>";
 		};
 		FAB2207021CA3C6C004137A1 /* Libraries */ = {
@@ -164,6 +167,43 @@
 				FAB2207F21CA3C6C004137A1 /* rscode.c */,
 			);
 			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		FAB2208F21CA3CE7004137A1 /* Ophelia */ = {
+			isa = PBXGroup;
+			children = (
+				FAB21FD621C8DD94004137A1 /* Ophelia.h */,
+			);
+			path = Ophelia;
+			sourceTree = "<group>";
+		};
+		FAB2209021CA3D08004137A1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FAB21FD721C8DD94004137A1 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FAB2209221CA4111004137A1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FAB2209321CA4136004137A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAB2209421CA413E004137A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +243,7 @@
 				FAB21FCF21C8DD94004137A1 /* Sources */,
 				FAB21FD021C8DD94004137A1 /* Frameworks */,
 				FAB21FD121C8DD94004137A1 /* Resources */,
+				FAB2209121CA3D73004137A1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +294,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAB2209121CA3D73004137A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\n#!/bin/bash\n\n# Auto increment Version number when Archive\nif [ $CONFIGURATION == Release ]; then\n\nVERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${INFOPLIST_FILE}\")\nNEWSUBVERSION=`echo $VERSIONNUM | awk -F \".\" '{print $3}'`\nNEWSUBVERSION=$(($NEWSUBVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \".\" '{print $1 \".\" $2 \".'$NEWSUBVERSION'\" }'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${INFOPLIST_FILE}\"\n\nelse\n\n# Auto increment Build number when Build\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${INFOPLIST_FILE}\"\n\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAB21FCF21C8DD94004137A1 /* Sources */ = {
@@ -408,7 +469,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Ophelia/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ophelia/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -416,7 +477,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kartega.ophelia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kartega.ophelia.objectivec;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -433,7 +494,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Ophelia/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Ophelia/SupportingFiles/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,7 +502,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kartega.ophelia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kartega.ophelia.objectivec;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
