@@ -14,7 +14,7 @@
 FOUNDATION_EXPORT double OpheliaVersionNumber;
 FOUNDATION_EXPORT const unsigned char OpheliaVersionString[];
 
-//CATEGORIES
+//CATEGORY
 #import <Ophelia/NSArray+Extensions.h>
 #import <Ophelia/NSDate+Extensions.h>
 #import <Ophelia/NSString+Extensions.h>
@@ -25,12 +25,26 @@ FOUNDATION_EXPORT const unsigned char OpheliaVersionString[];
 #import <Ophelia/UIView+Extensions.h>
 
 
-//VIEWS
+//MODEL
+#import <Ophelia/ValidationObject.h>
+#import <Ophelia/UserLocation.h>
+#import <Ophelia/Page.h>
+
+
+//VIEW
 
 
 //CONTROLLER
 
 
 //UTILITIES
-
-
+#import <Ophelia/AppUtil.h>
+#import <Ophelia/DeviceUtil.h>
+#import <Ophelia/KeychainUtil.h>
+#import <Ophelia/PrefsUtil.h>
+#import <Ophelia/UIKitUtil.h>
+#import <Ophelia/ValidationUtil.h>
+#import <Ophelia/NetworkUtil.h>
+#import <Ophelia/ShareUtil.h>
+#import <Ophelia/LocationUtil.h>
+#import <Ophelia/NetworkingUtil.h>
